@@ -1,0 +1,69 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30709.132
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "01 - Domain", "01 - Domain", "{580FA97D-4911-4140-AF26-75B1BC403805}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "02 - Interfaces", "02 - Interfaces", "{E033FF96-2559-4D7D-B900-E4AF22586B00}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "03 - Modules", "03 - Modules", "{A9F75931-39C2-4F79-B71B-EC09DBE6E5F5}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "04 - Applications", "04 - Applications", "{B5A8C731-EA5C-41FF-A62C-E247464ED8A3}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{7A82985D-89F4-4537-BA2B-A5A15642F08B}"
+	ProjectSection(SolutionItems) = preProject
+		readme.txt = readme.txt
+	EndProjectSection
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Tetra.Domain", "Tetra.Domain\Tetra.Domain.csproj", "{C8C2DA4B-A4B6-40F8-9C0A-EA2FBE370351}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Tetra.Interfaces", "Tetra.Interfaces\Tetra.Interfaces.csproj", "{33790C6C-132C-4505-A906-52DE1060ED1B}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Tetra.Drive", "Tetra.Drive\Tetra.Drive.csproj", "{49991C2C-59DA-4591-A139-FCCD14B40C5C}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Tetra.Handlers", "Tetra.Handlers\Tetra.Handlers.csproj", "{F9BAB85F-BB82-448B-8D5B-D22589F4E42F}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Tetra.Application.Console", "Tetra.Application.Console\Tetra.Application.Console.csproj", "{357A9860-CF66-4951-8D29-DC0074AFE323}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C8C2DA4B-A4B6-40F8-9C0A-EA2FBE370351}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C8C2DA4B-A4B6-40F8-9C0A-EA2FBE370351}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C8C2DA4B-A4B6-40F8-9C0A-EA2FBE370351}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C8C2DA4B-A4B6-40F8-9C0A-EA2FBE370351}.Release|Any CPU.Build.0 = Release|Any CPU
+		{33790C6C-132C-4505-A906-52DE1060ED1B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{33790C6C-132C-4505-A906-52DE1060ED1B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{33790C6C-132C-4505-A906-52DE1060ED1B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{33790C6C-132C-4505-A906-52DE1060ED1B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{49991C2C-59DA-4591-A139-FCCD14B40C5C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{49991C2C-59DA-4591-A139-FCCD14B40C5C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{49991C2C-59DA-4591-A139-FCCD14B40C5C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{49991C2C-59DA-4591-A139-FCCD14B40C5C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F9BAB85F-BB82-448B-8D5B-D22589F4E42F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F9BAB85F-BB82-448B-8D5B-D22589F4E42F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F9BAB85F-BB82-448B-8D5B-D22589F4E42F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F9BAB85F-BB82-448B-8D5B-D22589F4E42F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{357A9860-CF66-4951-8D29-DC0074AFE323}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{357A9860-CF66-4951-8D29-DC0074AFE323}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{357A9860-CF66-4951-8D29-DC0074AFE323}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{357A9860-CF66-4951-8D29-DC0074AFE323}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{C8C2DA4B-A4B6-40F8-9C0A-EA2FBE370351} = {580FA97D-4911-4140-AF26-75B1BC403805}
+		{33790C6C-132C-4505-A906-52DE1060ED1B} = {E033FF96-2559-4D7D-B900-E4AF22586B00}
+		{49991C2C-59DA-4591-A139-FCCD14B40C5C} = {A9F75931-39C2-4F79-B71B-EC09DBE6E5F5}
+		{F9BAB85F-BB82-448B-8D5B-D22589F4E42F} = {A9F75931-39C2-4F79-B71B-EC09DBE6E5F5}
+		{357A9860-CF66-4951-8D29-DC0074AFE323} = {B5A8C731-EA5C-41FF-A62C-E247464ED8A3}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {1BE599DE-A18C-4674-BB4B-2ED88CB9F2AD}
+	EndGlobalSection
+EndGlobal
